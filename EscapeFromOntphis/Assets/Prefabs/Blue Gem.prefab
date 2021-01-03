@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2926158759076570474
+--- !u!1 &7971788972501275406
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,36 +8,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7860806512449482507}
-  - component: {fileID: 1775214201198847714}
+  - component: {fileID: 8280618755668841028}
+  - component: {fileID: 6453281959631685916}
   m_Layer: 0
-  m_Name: Gray Car
+  m_Name: Blue Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7860806512449482507
+--- !u!4 &8280618755668841028
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2926158759076570474}
+  m_GameObject: {fileID: 7971788972501275406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 230.9, y: 167.3, z: 0}
+  m_LocalPosition: {x: -5.70173, y: -0.3172022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1775214201198847714
+--- !u!212 &6453281959631685916
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2926158759076570474}
+  m_GameObject: {fileID: 7971788972501275406}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -69,13 +69,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 9c65ba0f88e98724cb69d6a976709b12, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 4169e65dee53b0e4b84d5d732550b595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.09, y: 0.94}
+  m_Size: {x: 1.58, y: 1.58}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

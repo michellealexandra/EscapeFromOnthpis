@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9121707251856270496}
   - component: {fileID: 529834750379428872}
+  - component: {fileID: 3891959228539287752}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -81,3 +82,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &3891959228539287752
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523958638317803630}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75333333, y: 1.14}
+    newSize: {x: 0.75333333, y: 1.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.17666668, y: 0.09}
+      - {x: 0.15, y: 0.22333334}
+      - {x: 0.17666668, y: 0.25666666}
+      - {x: 0.17666668, y: 0.35666668}
+      - {x: 0.09666667, y: 0.43}
+      - {x: -0.09, y: 0.43}
+      - {x: -0.15666667, y: 0.29666668}
+      - {x: -0.15666667, y: 0.21666667}
+      - {x: -0.11, y: 0.16333334}
+      - {x: -0.15, y: 0.05666667}
+      - {x: -0.14333333, y: -0.11}
+      - {x: -0.11, y: -0.19}
+      - {x: -0.030000001, y: -0.29000002}
+      - {x: 0.0033333334, y: -0.29666668}
+      - {x: 0.06333333, y: -0.29666668}
+      - {x: 0.11, y: -0.25666666}
+      - {x: 0.17, y: -0.13000001}
+      - {x: 0.17666668, y: -0.07}

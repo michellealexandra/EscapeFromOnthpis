@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8771100740238685061}
   - component: {fileID: 3428562146838403648}
+  - component: {fileID: 550594263771461644}
   m_Layer: 0
   m_Name: Red Car
   m_TagString: Untagged
@@ -81,3 +82,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &550594263771461644
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986528074087398589}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.09, y: 0.93}
+    newSize: {x: 1.3933333, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.685, y: -0.095}
+      - {x: 0.815, y: -0.085}
+      - {x: 0.885, y: 0.055}
+      - {x: 0.885, y: 0.285}
+      - {x: 0.79499996, y: 0.345}
+      - {x: 0.885, y: 0.42499998}
+      - {x: 0.885, y: 0.435}
+      - {x: 0.875, y: 0.465}
+      - {x: 0.695, y: 0.465}
+      - {x: 0.615, y: 0.385}
+      - {x: 0.345, y: 0.45499998}
+      - {x: 0.125, y: 0.465}
+      - {x: -0.185, y: 0.39499998}
+      - {x: -0.405, y: 0.325}
+      - {x: -0.635, y: 0.325}
+      - {x: -0.715, y: 0.295}
+      - {x: -0.825, y: 0.175}
+      - {x: -0.825, y: -0.035}
+      - {x: -0.675, y: -0.095}
+      - {x: -0.375, y: -0.095}
+      - {x: -0.325, y: -0.074999996}
+      - {x: 0.13499999, y: -0.074999996}
+      - {x: 0.235, y: -0.095}

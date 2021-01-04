@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 710692548963718821}
   - component: {fileID: 2804903996647594526}
   - component: {fileID: 538475868574455901}
+  - component: {fileID: 9138846186441524209}
   m_Layer: 0
   m_Name: Grey Car
   m_TagString: Untagged
@@ -131,3 +132,16 @@ PolygonCollider2D:
       - {x: 0.21499999, y: -0.07}
       - {x: 0.355, y: -0.089999996}
       - {x: 0.715, y: -0.089999996}
+--- !u!114 &9138846186441524209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368739239480511932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97bdaf67fe1fec4d8022d63f97efc6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5

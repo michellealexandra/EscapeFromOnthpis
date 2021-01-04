@@ -7,6 +7,7 @@ public class MotorcyleScript : MonoBehaviour
 
     public float motorSpeed;
     Vector3 position;
+    public float maxPos = 0.9f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,8 @@ public class MotorcyleScript : MonoBehaviour
     void Update()
     {
         position.y += Input.GetAxis ("Vertical") * motorSpeed * Time.deltaTime;
+
+        position.y = Mathf.Clamp(position.y, -2.5f,  0.9f);
 
         transform.position = position;
     }

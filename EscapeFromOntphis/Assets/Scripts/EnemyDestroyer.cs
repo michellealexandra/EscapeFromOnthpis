@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCarMove : MonoBehaviour
+public class EnemyDestroyer : MonoBehaviour
 {
-    public float speed =8f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +13,11 @@ public class EnemyCarMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(-1,0,0) * speed * Time.deltaTime);
+        
+    }
+    void OnCollisionEnter2D(Collision2D col) {
+        if(col.gameObject.tag == "Enemy Car"){
+            Destroy(col.gameObject);
+        }
     }
 }

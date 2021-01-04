@@ -24,4 +24,11 @@ public class MotorcyleScript : MonoBehaviour
 
         transform.position = position;
     }
+
+    void OnCollisionEnter2D(Collision2D col) {
+        if(col.gameObject.tag == "Enemy Car"){
+            Destroy(gameObject);
+        }
+    }
+    
 }

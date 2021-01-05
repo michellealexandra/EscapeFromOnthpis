@@ -17,7 +17,6 @@ public class GemSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         timer -= Time.deltaTime;
         if(timer <= 0){
             Vector3 gemPos = new Vector3(transform.position.x, Random.Range(-2.5f, 0.9f), transform.position.z);

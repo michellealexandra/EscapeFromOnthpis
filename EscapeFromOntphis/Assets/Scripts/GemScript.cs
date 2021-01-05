@@ -16,7 +16,7 @@ public class GemScript : MonoBehaviour
         // if(collider.gameObject.tag == "gem"){
         Debug.Log("Gem!!!!!!!!");
 
-        ScoreScript.gemAmount += 1;
+        ScoreScript.gemAmount += 50;
         Destroy(gameObject);
         // }
     }

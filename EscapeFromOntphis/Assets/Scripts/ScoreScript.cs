@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class ScoreScript : MonoBehaviour
 {
-
     public TextMeshProUGUI text;
+
     public static int gemAmount;
 
     // Start is called before the first frame update
@@ -19,5 +19,9 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         text.text = gemAmount.ToString();
+        if (gemAmount > HighScore.highScore)
+        {
+            HighScore.highScore = gemAmount;
+        }
     }
 }

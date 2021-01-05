@@ -11,6 +11,7 @@ public class GameOverMenu : MonoBehaviour
     }
 
     public void Restart(){
+        ScoreScript.gemAmount = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

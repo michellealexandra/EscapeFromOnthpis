@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy Car
   - gem
+  - Robot
   layers:
   - Default
   - TransparentFX

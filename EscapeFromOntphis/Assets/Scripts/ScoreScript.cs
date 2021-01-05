@@ -1,34 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ScoreScript : MonoBehaviour
 {
 
-    int score = 0;
-    int gemCollected = 0;
-    public GameObject gem;
-    public Text txtScore;
+    public TextMeshProUGUI text;
+    public static int gemAmount;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        text = GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    
-    public void AddScore(int scoreToAdd)
-    {
-        score += scoreToAdd;
-
-        //menampilkan di UI
-        txtScore.text = score + "";
+        text.text = gemAmount.ToString();
     }
 }

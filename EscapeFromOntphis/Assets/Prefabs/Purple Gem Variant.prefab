@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5154501199804844226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441741591213661069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febae45d4befdca438980653deb8791d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+--- !u!114 &26900396877018921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441741591213661069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ecb151d40acba4db765be9d98f5537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7021728693004498108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3095875298306109233, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_Name
+      value: Purple Gem Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7365370775984651007, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.21257776
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0753806
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292888809632978942, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 445e11ac0bbddbd41bb5f91c3e8784d5, type: 3}
+--- !u!1 &5441741591213661069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3095875298306109233, guid: 445e11ac0bbddbd41bb5f91c3e8784d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7021728693004498108}
+  m_PrefabAsset: {fileID: 0}

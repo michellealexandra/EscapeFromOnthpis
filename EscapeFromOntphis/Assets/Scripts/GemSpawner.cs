@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GemSpawner : MonoBehaviour
 {
-    public GameObject gem;
+    public GameObject[] gems;
+    int gemNo;
     public float maxPos = 0.9f;
     public float delayTimer = 5f;
     float timer;
@@ -18,10 +19,16 @@ public class GemSpawner : MonoBehaviour
     void Update()
     {
         //kalo mau dibkin lebih lama ,kecilin aja ini
-        timer -= 0.005f;
+        timer -= 0.002f;
         if(timer <= 0){
             Vector3 gemPos = new Vector3(transform.position.x, Random.Range(-2.5f, 0.9f), transform.position.z);
-            Instantiate(gem, gemPos, transform.rotation);
+            float randomChance = Random.Range(0.0f, 1.0f);
+            if(randomChance < 0.4f){
+                 Instantiate(gems[0], gemPos, transform.rotation);
+            }
+            else{
+                Instantiate(gems[1], gemPos, transform.rotation);
+            }
             timer = delayTimer;
         }
         

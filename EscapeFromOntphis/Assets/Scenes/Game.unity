@@ -320,7 +320,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a79f147ad1304d4e8560a067992f3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gem: {fileID: 6686843293290472847, guid: 36703185cb650334e9713871031e950e, type: 3}
+  gems:
+  - {fileID: 5441741591213661069, guid: e5c1eb1b6c3fc4240a5e040487dc5dac, type: 3}
+  - {fileID: 6686843293290472847, guid: 36703185cb650334e9713871031e950e, type: 3}
   maxPos: 0.9
   delayTimer: 0.5
 --- !u!4 &343015053

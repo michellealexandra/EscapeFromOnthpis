@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenuCanvas.unity
     guid: bada698b2a0ea684c9386e18a8841e1c
   - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: 5916e92324d98524d8be5d59736e1e05
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9f5e71f54ab18764f83d7b2c840789ff
+  - enabled: 1
+    path: Assets/Scenes/HardGame.unity
+    guid: 4370b116ac84968429676c171c851815
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 52708444c5b250648b47f76edf39661c

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class HighScore : MonoBehaviour
+public class HighScoreHard : MonoBehaviour
 {
     public TextMeshProUGUI text;
 
-    public static int highScore;
+    public static int highScoreHard;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +18,9 @@ public class HighScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScoreScript.chosenLevel == 1)
+        if (ScoreScript.chosenLevel == 2)
         {
-            text.text = highScore.ToString();
+            text.text = highScoreHard.ToString();
         }
     }
 }

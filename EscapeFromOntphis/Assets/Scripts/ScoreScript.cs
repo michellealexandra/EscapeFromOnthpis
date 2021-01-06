@@ -9,6 +9,8 @@ public class ScoreScript : MonoBehaviour
 
     public static int gemAmount;
 
+    public static int chosenLevel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,9 +21,19 @@ public class ScoreScript : MonoBehaviour
     void Update()
     {
         text.text = gemAmount.ToString();
-        if (gemAmount > HighScore.highScore)
+        if (chosenLevel == 1)
         {
-            HighScore.highScore = gemAmount;
+            if (gemAmount > HighScore.highScore)
+            {
+                HighScore.highScore = gemAmount;
+            }
+        }
+        else if (chosenLevel == 2)
+        {
+            if (gemAmount > HighScoreHard.highScoreHard)
+            {
+                HighScoreHard.highScoreHard = gemAmount;
+            }
         }
     }
 }

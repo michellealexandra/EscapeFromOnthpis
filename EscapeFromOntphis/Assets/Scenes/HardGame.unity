@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 56.6}
+  m_AnchoredPosition: {x: 0, y: 49}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49384894
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280028952
+  m_fontColor: {r: 0.09411765, g: 0.05882353, b: 0.10980392, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -470,7 +470,7 @@ PrefabInstance:
     - target: {fileID: 4856035900043219668, guid: cf7db3f478b26e74693497b9da8fcbc5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.65
+      value: -7.2
       objectReference: {fileID: 0}
     - target: {fileID: 4856035900043219668, guid: cf7db3f478b26e74693497b9da8fcbc5,
         type: 3}
@@ -802,6 +802,7 @@ MonoBehaviour:
   - {fileID: 1367850489322617626, guid: 350ef5b78078fa54f969d9059e3205e1, type: 3}
   - {fileID: 4960244360040625866, guid: 2c82e17a0d668a3429002a1f7975d155, type: 3}
   - {fileID: 7148705425060919399, guid: c2121c95bb9435b49a8731bfb0de89c8, type: 3}
+  - {fileID: 5377336331766643478, guid: 4666837ffe8161947bf58a25500d21bc, type: 3}
   - {fileID: 5377336331766643478, guid: 4666837ffe8161947bf58a25500d21bc, type: 3}
   maxPos: 0.9
   delayTimer: 0.4

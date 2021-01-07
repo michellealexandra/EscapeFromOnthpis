@@ -5,32 +5,52 @@ using UnityEngine;
 public class GemSpawner : MonoBehaviour
 {
     public GameObject[] gems;
+
     int gemNo;
+
     public float maxPos = 0.9f;
-    public float delayTimer = 5f;
+
+    public float delayTimer = 5.0f;
+
     float timer;
+
+    float delay = 5.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-       timer = delayTimer;
+        timer = delayTimer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //kalo mau dibkin lebih lama ,kecilin aja ini
-        timer -= 0.002f;
-        if(timer <= 0){
-            Vector3 gemPos = new Vector3(transform.position.x, Random.Range(-2.5f, 0.9f), transform.position.z);
-            float randomChance = Random.Range(0.0f, 1.0f);
-            if(randomChance < 0.4f){
-                 Instantiate(gems[0], gemPos, transform.rotation);
-            }
-            else{
-                Instantiate(gems[1], gemPos, transform.rotation);
-            }
-            timer = delayTimer;
+        if (delay >= 0)
+        {
+            delay -= Time.deltaTime;
+            return;
         }
-        
+        else
+        {
+            //kalo mau dibkin lebih lama ,kecilin aja ini
+            timer -= 0.002f;
+            if (timer <= 0)
+            {
+                Vector3 gemPos =
+                    new Vector3(transform.position.x,
+                        Random.Range(-2.5f, 0.9f),
+                        transform.position.z);
+                float randomChance = Random.Range(0.0f, 1.0f);
+                if (randomChance < 0.4f)
+                {
+                    Instantiate(gems[0], gemPos, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(gems[1], gemPos, transform.rotation);
+                }
+                timer = delayTimer;
+            }
+        }
     }
 }

@@ -31,11 +31,17 @@ public class MotorcyleScript : MonoBehaviour
     {
         if (col.gameObject.tag == "Enemy Car")
         {
+            SoundManagerScript.PlaySound("crash");
             Destroy (gameObject);
-            if(SceneManager.GetActiveScene().buildIndex == 2){
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-            } else if(SceneManager.GetActiveScene().buildIndex == 3){
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                SceneManager
+                    .LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                SceneManager
+                    .LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }

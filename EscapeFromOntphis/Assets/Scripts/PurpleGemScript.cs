@@ -19,6 +19,7 @@ public class PurpleGemScript : MonoBehaviour
         // if(collider.gameObject.tag == "gem"){
         Debug.Log("Gem!!!!!!!!");
 
+        SoundManagerScript.PlaySound("gem");
         ScoreScript.gemAmount += 100;
         Destroy(gameObject);
         // }

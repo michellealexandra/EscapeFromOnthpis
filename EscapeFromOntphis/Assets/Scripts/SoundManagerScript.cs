@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip gemSFX, crashSFX;
+    public static AudioClip gemSFX, crashSFX, buttonSFX;
 
     static AudioSource audioSrc;
 
@@ -13,6 +13,7 @@ public class SoundManagerScript : MonoBehaviour
     {
         gemSFX = Resources.Load<AudioClip>("gem");
         crashSFX = Resources.Load<AudioClip>("crash");
+        buttonSFX = Resources.Load<AudioClip>("button");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -31,6 +32,9 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "crash":
                 audioSrc.PlayOneShot (crashSFX);
+                break;
+            case "button":
+                audioSrc.PlayOneShot (buttonSFX);
                 break;
         }
     }

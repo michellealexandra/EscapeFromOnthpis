@@ -7,10 +7,12 @@ public class GameOverMenu : MonoBehaviour
 {
 
     public void QuitGame(){
+        SoundManagerScript.PlaySound("button");
         Application.Quit();
     }
 
     public void Restart(){
+        SoundManagerScript.PlaySound("button");
         ScoreScript.gemAmount = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
